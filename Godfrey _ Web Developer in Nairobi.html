@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Godfrey | Web Developer in Nairobi</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f3f7f2;--surface:#ffffff;--text:#16241b;--muted:#53655a;--accent:#0b6e4f;--accent-text:#ffffff;--line:#d3dfd5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1a14;--surface:#16261d;--text:#e8f1ea;--muted:#9db3a4;--accent:#4cc38a;--accent-text:#0a1710;--line:#274034}}
+:root[data-theme="dark"]{--bg:#0f1a14;--surface:#16261d;--text:#e8f1ea;--muted:#9db3a4;--accent:#4cc38a;--accent-text:#0a1710;--line:#274034}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.6}
+main{max-width:720px;margin:0 auto;padding:40px 20px 56px}
+h1,h2{font-family:Fraunces,Georgia,serif;line-height:1.15;margin:0}
+h1{font-size:clamp(2.2rem,8vw,3.4rem);font-weight:800}
+h2{font-size:1.6rem;margin-bottom:16px}
+section{margin-top:48px}
+.lead{font-size:1.1rem;color:var(--muted);max-width:560px;margin:16px 0 24px}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-text);padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:600}
+.btn.alt{background:transparent;color:var(--text);border:1px solid var(--line);margin-left:8px}
+.btn:focus-visible{outline:3px solid var(--text);outline-offset:2px}
+.grid{display:grid;gap:12px}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px}
+.item h3{margin:0 0 4px;font-size:1.05rem}
+.item p{margin:0;color:var(--muted)}
+.price{color:var(--accent);font-weight:600;margin-top:8px!important}
+.skills{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none;margin:0}
+.skills li{border:1px solid var(--line);background:var(--surface);padding:6px 12px;border-radius:99px;font-size:.92rem}
+footer{margin-top:56px;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Godfrey</h1>
+<p class="lead">I build simple, fast websites and organize data for small businesses in Nairobi. Affordable, clear, and delivered on time.</p>
+<a class="btn" id="wa" href="https://wa.me/254746965652?text=Hi%20Godfrey%2C%20I%20need%20a%20website" >Chat on WhatsApp</a>
+<a class="btn alt" href="mailto:eronigodfrey@gmail.com">Email me</a>
+</header>
+
+<section>
+<h2>What I can do for you</h2>
+<div class="grid">
+<div class="item"><h3>Business website</h3><p>A mobile-friendly site with your products, prices, location, and a WhatsApp button so customers reach you fast.</p><p class="price">From KES 3,000</p></div>
+<div class="item"><h3>Database and records</h3><p>Move your paper records or messy Excel into a clean database or Google Sheet that is easy to search.</p><p class="price">From KES 2,000</p></div>
+<div class="item"><h3>Excel and Google Sheets</h3><p>Stock lists, sales trackers, student marks, and reports with formulas that work automatically.</p><p class="price">From KES 500</p></div>
+<div class="item"><h3>Fix or update a website</h3><p>Broken pages, new content, slow loading, or a fresh look for your existing site.</p><p class="price">From KES 1,000</p></div>
+</div>
+</section>
+
+<section>
+<h2>Skills</h2>
+<ul class="skills">
+<li>HTML</li><li>CSS</li><li>JavaScript</li><li>Database design</li><li>SQL</li><li>Excel</li><li>Google Sheets</li>
+</ul>
+</section>
+
+<section>
+<h2>About me</h2>
+<p>I am an IT student at The Nairobi National Polytechnic, studying web development and database management under CDACC. I take every project seriously, explain things in plain language, and show you progress before you pay the balance.</p>
+</section>
+
+<section>
+<h2>How it works</h2>
+<div class="grid">
+<div class="item"><h3>1. Tell me what you need</h3><p>Message me on WhatsApp.</p></div>
+<div class="item"><h3>2. Agree on price and time</h3><p>You pay half by M-Pesa to start.</p></div>
+<div class="item"><h3>3. Review and pay the balance</h3><p>I deliver, you check, then pay the rest.</p></div>
+</div>
+</section>
+
+<footer>Nairobi, Kenya. Call or WhatsApp: 0746 965 652. Email: eronigodfrey@gmail.com. Payments by M-Pesa.</footer>
+</main>
+</body>
+</html>
